@@ -1,0 +1,30 @@
+.title  {
+    font: bold 22px Arial, Helvetica, sans-serif; 
+    text-align: center;
+     clear: both;
+     text-transform: capitalize;
+}
+.future-calendar{float: left}
+
+.future-calendar span{
+
+    display: block;
+    float: left;
+    border: 1px solid #999;
+    text-align: center;
+    width: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.future-calendar span:nth-child(7n+1) {
+    clear: both;
+}
+
+.future-calendar span.active{
+    color: #555;
+}
+.inactive{
+    border-color: #ccc;
+}
