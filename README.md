@@ -1,2 +1,2 @@
-# featurecalendar
+# Future calendar
 A  custom javaScript Calendar
