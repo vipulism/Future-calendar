@@ -21,7 +21,11 @@
 }
 .future-calendar{
     
-    float: left;
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -75%);
 
     -webkit-user-select: none;  
     -moz-user-select: none;    
